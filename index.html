@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Batu Gunting Kertas</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+        <span class="judul">Mari Bermain Batu Gunting Kertas</span>
+        <details class="peraturan">
+            <summary>Rules to the game</summary>
+            <p>You will be playing against the computer.
+
+            You can choose between Rock, Paper, and Scissors.
+
+            The first one to three points wins.
+
+            Here are the rules to getting a point in the game:
+
+            Rock beats Scissors
+            Scissors beats Paper
+            Paper beats Rock
+            If the player and computer choose the same option (Ex. Paper and Paper), then no one gets the point.</p>
+        </details>
+        <div class="container">
+        <h3 class="Psc">PlayerScore:<span class="player" id="PlayerScore">0</span></h3>
+        <h3 class="Csc">ComputerScore:<span class="computer" id="ComputerScore">0</span></h3>
+        </div>
+        <div class="kontent">
+        <h2>Pilih Sebuah Opsi:</h2></div>
+        <div class="option">
+            <button id="BtnRock">Rock</button>
+            <button id="BtnPaper">Paper</button>
+            <button id="BtnScissors">Scissors</button>
+        </div>
+        
+        <div class="result" id="roundResult">
+            <p id="resultmsg"></p>
+            <p id="winnermsg"></p>
+            <button class="btn" id="resetbtn">Mulai Lagi?</button>
+        </div>
+    <script src="script.js"></script>
+</body>
+</html>
